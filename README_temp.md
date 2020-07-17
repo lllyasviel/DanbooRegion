@@ -1,4 +1,4 @@
-# the DanbooRegion 2020 Dataset
+# The DanbooRegion 2020 Dataset
 
 ![img0](https://lllyasviel.github.io/DanbooRegion/page_imgs/teaser.jpg)
 
