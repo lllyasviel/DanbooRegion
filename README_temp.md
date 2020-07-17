@@ -8,7 +8,7 @@ This project begins at 2019 Jan and a techinical paper, namely "DanbooRegion: Il
 
 ![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/ex.jpg)
 
-* Some example illustration and the corresponding region annotations.
+*- Some example illustration and the corresponding region annotations.*
 
 # Table of Contents
 
