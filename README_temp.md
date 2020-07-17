@@ -10,6 +10,8 @@ This project begins at 2019 Jan and a techinical paper, namely "DanbooRegion: Il
 
 *- Some example illustration and the corresponding region annotations.*
 
+[Project Page] [Paper] [Zhihu]
+
 # Table of Contents
 
 In this page, we provide the following contents:
