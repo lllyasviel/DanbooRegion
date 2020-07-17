@@ -50,7 +50,7 @@ or if you do not have access to google
     Baidu Drive (百度网盘):
     url here.
 
-After the downloading and dicompression, you may see images like this:
+After the downloading and decompression, you may see images like this:
 
 ![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/sc.jpg)
 
