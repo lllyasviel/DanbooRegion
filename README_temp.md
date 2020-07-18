@@ -52,8 +52,6 @@ or if you do not have access to google
 
 After the downloading and decompression, you may see images like this:
 
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/sc.jpg)
-
 The file structure is
 
     ../DanbooRegion2020
@@ -68,15 +66,9 @@ The file structure is
 
 Below is an example of "X.image.png"
 
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/image.jpg)
-
 and the example of "X.region.png"
 
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/result_sim.png)
-
 In fact the above "X.region.png" is composed of many regions, and if you visualize them with random colors you will see something like this:
-
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/regions_sim.png)
 
 # 2. Converting regions to learnable skeleton maps.
 
