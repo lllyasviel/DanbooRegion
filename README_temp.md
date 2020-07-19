@@ -411,7 +411,7 @@ The translated region map:
 
 and the regions filled with original colors:
 
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_result)
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_result.png)
 
 Have fun with the pre-trained model.
 
