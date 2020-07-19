@@ -169,7 +169,42 @@ Have fun with the codes.
 
 # 3. Converting the entire dataset to learnable skeleton maps.
 
+Using the above transform, you can translate the full training data into skeleton maps. Just run
 
+    cd ./code/
+    python skeletonize_all.py
+
+This will automatically generate all training region skeletons, and the logs are like this:
+
+    Writing   ./DanbooRegion2020/train/0.skeleton.png   1/3377
+    Writing   ./DanbooRegion2020/train/1.skeleton.png   2/3377
+    Writing   ./DanbooRegion2020/train/2.skeleton.png   3/3377
+    Writing   ./DanbooRegion2020/train/3.skeleton.png   4/3377
+    Writing   ./DanbooRegion2020/train/4.skeleton.png   5/3377
+    Writing   ./DanbooRegion2020/train/5.skeleton.png   6/3377
+    ...
+    Writing   ./DanbooRegion2020/train/3376.skeleton.png   3377/3377
+
+Before running this script, the file structures are
+
+    ../code/DanbooRegion2020
+    ../code/DanbooRegion2020/train
+    ../code/DanbooRegion2020/train/X.image.png
+    ../code/DanbooRegion2020/train/X.region.png
+
+After this script, the file structures become
+
+    ../code/DanbooRegion2020
+    ../code/DanbooRegion2020/train
+    ../code/DanbooRegion2020/train/X.image.png
+    ../code/DanbooRegion2020/train/X.region.png
+    ../code/DanbooRegion2020/train/X.skeleton.png
+
+And this is a screenshot after all skeletons are generated:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/sc2.jpg)
+
+And now you have prepared everything.
 
 # 4. Training a neural network to predict the skeleton maps.
 
