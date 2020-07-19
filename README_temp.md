@@ -353,7 +353,7 @@ The file structure **after** your testing should be:
     ../code/DanbooRegion2020/my_prediction
     ../code/DanbooRegion2020/my_prediction/X.region.png
 
-Then, zip your "DanbooRegion2020/my_prediction" folder and send your **my_prediction.zip** to **lvminzhang@acm.org** or **lvminzhang@siggraph.org**. I will test the performance of your method and add your score in the official benchmark. The title of your email should be **DanbooRegion2020 Test**. You are allowed to submit **once a week**.
+Then, zip your "DanbooRegion2020/my_prediction" folder and send your **"my_prediction.zip"** to **lvminzhang@acm.org** or **lvminzhang@siggraph.org**. I will test the performance of your method and add your score in the official benchmark. The title of your email should be **"DanbooRegion2020 Test"**. Please give me the name of your method in your email. You are allowed to submit **once a week**. You can ask me to remove any of your score.
 
 The current benchmark is:
 
