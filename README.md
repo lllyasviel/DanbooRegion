@@ -208,7 +208,7 @@ Note that the selected files in the above screenshot are the generated skeleton 
 
 # 4. Training a neural network to predict the skeleton maps.
 
-Before training the model, make sure that you have followed the instractions in *3. Converting the entire dataset to learnable skeleton maps*.
+Before training the model, make sure that you have followed the instructions in *3. Converting the entire dataset to learnable skeleton maps*.
 
 We provide full codes for you to train a model on this dataset:
 
