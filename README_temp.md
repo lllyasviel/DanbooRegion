@@ -305,15 +305,86 @@ And you may have an output like this:
 
 # 6. Developing your own framework and train it on this dataset.
 
+You can use this dataset to train any kind of neural networks.
 
+We highly recommend you to use our **dataset.py** to load the dataset as it is very flexiable and easy to use. It will automatically sample training images randomly, crop them to **512×512** randomly, and then augment them randomly with many advanced data augmentation methods. A very simple example is
+
+    from datasets import *
+    
+    while True:
+        training_output, training_input = handle_next()
+        cv2.imshow('training_input', training_input)
+        cv2.imshow('training_output', training_output)
+        cv2.waitKey(0)
+
+and you will see results like this
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/sc3.jpg)
+
+Isnt it very convenient? Use it now!
 
 # 7. Benchmarking the performace of your model.
 
+Whatever method you use, you may create a folder called "DanbooRegion2020/my_prediction" and put your estimated regions in it.
 
+The file structure **before** your testing is:
+
+    ../code/DanbooRegion2020
+    ../code/DanbooRegion2020/train
+    ../code/DanbooRegion2020/train/X.image.png
+    ../code/DanbooRegion2020/train/X.region.png
+    ../code/DanbooRegion2020/val
+    ../code/DanbooRegion2020/val/X.image.png
+    ../code/DanbooRegion2020/val/X.region.png
+    ../code/DanbooRegion2020/test
+    ../code/DanbooRegion2020/test/X.image.png
+
+The file structure **after** your testing should be:
+
+    ../code/DanbooRegion2020
+    ../code/DanbooRegion2020/train
+    ../code/DanbooRegion2020/train/X.image.png
+    ../code/DanbooRegion2020/train/X.region.png
+    ../code/DanbooRegion2020/val
+    ../code/DanbooRegion2020/val/X.image.png
+    ../code/DanbooRegion2020/val/X.region.png
+    ../code/DanbooRegion2020/test
+    ../code/DanbooRegion2020/test/X.image.png
+    ../code/DanbooRegion2020/my_prediction
+    ../code/DanbooRegion2020/my_prediction/X.region.png
+
+Then, zip your "DanbooRegion2020/my_prediction" folder and send your **my_prediction.zip** to **lvminzhang@acm.org** or **lvminzhang@siggraph.org**. I will test the performance of your method and add your score in the official benchmark. The title of your email should be **DanbooRegion2020 Test**. You are allowed to submit **once a week**.
+
+The current benchmark is:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/bm.png)
+
+We use the metric of **Average Precision (AP), Optimal Image Scale (OIS), and Optimal Dataset Scale (ODS)**. If you are not familiar of these standard region quality metrics, you may refer to
+
+    Berkeley Segmentation Data Set and Benchmarks 500 (BSDS500)
+    https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
+    
+    Holistically-Nested Edge Detection
+    https://github.com/s9xie/hed
+
+Both of these two famous works have very detailed description of the metrics of AP/OIS/ODS. If you want to play with these metrics on you own, you may refer to the instructions of 
+
+    Richer Convolutional Features for Edge Detection
+    https://github.com/yun-liu/RCF
+
+But the above link will ask you to install Matlab. If you do not have Matlab then maybe you can ignore it.
 
 # 8. Downloding the pre-trained model.
 
+We provide a very good pre-trained model for you to download it. This model is very good because I have trained many models and I have manually tested them one-by-one. Note that I not only tested numeric metrics but also checked their results one-by-one. This one is my favorite one and I share it here:
 
+    Google Drive:
+    An URL will be bere.
+
+or if you do not have access to google
+
+    Baidu Drive (百度网盘):
+    An URL will be bere.
 
 # 9. Testing the model with an image.
 
