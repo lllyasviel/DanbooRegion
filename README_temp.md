@@ -326,6 +326,9 @@ And you may have an output like this:
 # 11. Playing with some configuations.
 
 
+# FAQ
+
+
 # Citation
 
 If you use this code for your research, please cite our paper:
