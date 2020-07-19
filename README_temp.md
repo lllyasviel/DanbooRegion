@@ -204,11 +204,58 @@ And this is a screenshot after all skeletons are generated:
 
 ![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/sc2.jpg)
 
-And now you have prepared everything.
+Note that the selected files in the above screenshot are the generated skeleton maps. Now you have prepared everything.
 
 # 4. Training a neural network to predict the skeleton maps.
 
+Before training the model, make sure that you have followed the instractions in *3. Converting the entire dataset to learnable skeleton maps*.
 
+We provide full codes for you to train a model on this dataset:
+
+    cd ./code/
+    python train.py
+
+We note that:
+
+* If you run this script in the first time, it will generate a new model and train it directly.
+* During training, the model will be saved in each 200 iterations.
+* If you run this script when a saved model is avaliable, it will read the previous model and continue training.
+* If you do not want to continue the training, please delete the "saved_model.net" and "saved_discriminator.net" file.
+* This code will train a U-net with adversarial and perceptural L1 loss, which has similar performance with pix2pixHD.
+* The script uses many data augmentation methods. Please see the code for details.
+* The training is not very expensive. You may even train it on a laptop with GTX980M.
+
+During the training, the script will save the neural network estimated skeleton maps for each 10 iterations. The saved estimations are in the path:
+
+    ../code/results
+    ../code/results/0.jpg
+    ../code/results/1.jpg
+    ../code/results/2.jpg
+    ...
+
+The entire training will take 50000 iterations.
+
+On my very old laptop (GTX980M+I7CPU), the successful logs are
+
+    Using TensorFlow backend.
+    2020-07-19 20:44:39.820506: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+    2020-07-19 20:44:40.423216: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1030] Found device 0 with properties: 
+    name: GeForce GTX 980M major: 5 minor: 2 memoryClockRate(GHz): 1.1265
+    pciBusID: 0000:01:00.0
+    totalMemory: 8.00GiB freeMemory: 6.71GiB
+    2020-07-19 20:44:40.423930: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 980M, pci bus id: 0000:01:00.0, compute capability: 5.2)
+    saved_model.net--created
+    saved_discriminator.net--created
+    0/50000 Currently 13.778525352478027 second for each iteration.
+    1/50000 Currently 2.0006484985351562 second for each iteration.
+    2/50000 Currently 1.6455974578857422 second for each iteration.
+    3/50000 Currently 1.8700015544891357 second for each iteration.
+    4/50000 Currently 1.8167574405670166 second for each iteration.
+    5/50000 Currently 1.5877196788787842 second for each iteration.
+    6/50000 Currently 1.6236474514007568 second for each iteration.
+    7/50000 Currently 1.7862193584442139 second for each iteration.
+
+If you have better GPU than me, your speed should be much faster.
 
 # 5. Converting a skeleton map to regions.
 
