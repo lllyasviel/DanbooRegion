@@ -380,12 +380,12 @@ But the above link will ask you to install Matlab. If you do not have Matlab the
 We provide a very good pre-trained model for you to download it. This model is very good because I have trained many models and I have manually tested them one-by-one. Note that I not only tested numeric metrics but also checked and watched their results one-by-one using human eyes. This one is my favorite one and I share it here:
 
     Google Drive:
-    An URL will be bere.
+    (removed, see the UPDATE below.)
 
 or if you do not have access to google
 
     Baidu Drive (百度网盘):
-    An URL will be bere.
+    (removed, see the UPDATE below.)
 
 **UPDATE: We have uploaded the model to the github repo. You now have this model when you clone this repo. You do not need to download again.**
 
