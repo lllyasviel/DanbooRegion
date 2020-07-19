@@ -2,7 +2,7 @@
 
 ![img0](https://lllyasviel.github.io/DanbooRegion/page_imgs/teaser.jpg)
 
-DanbooRegion is a project conducted by ToS2P (the Team of Style2Paints), aiming at find a solution to extract regions from illustrations and cartoon images, so that many region-based image processing algrithoms can be applied to in-the-wild illustration and digital paintings. The main uniqueness of this project is that our dataset is created by real artists in a semi-automatic manner. 
+DanbooRegion is a project conducted by ToS2P (the Team of Style2Paints), aiming at finding a solution to extract regions from illustrations and cartoon images, so that many region-based image processing algrithoms can be applied to in-the-wild illustration and digital paintings. The main uniqueness of this project is that our dataset is created by real artists in a semi-automatic manner. 
 
 This project begins at 2019 Jan and a techinical paper, namely "DanbooRegion: An Illustration Region Dataset", is accepted to the European Conference on Computer Vision (ECCV) 2020.
 
