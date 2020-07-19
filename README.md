@@ -361,7 +361,7 @@ The current benchmark is:
 
 ![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/bm.png)
 
-We use the metric of **Average Precision (AP), Optimal Image Scale (OIS), and Optimal Dataset Scale (ODS)**. If you are not familiar of these standard region quality metrics, you may refer to
+We use the metric of **Average Precision (AP), Optimal Image Scale (OIS), and Optimal Dataset Scale (ODS)**. If you are not familiar with these standard region quality metrics, you may refer to
 
     Berkeley Segmentation Data Set and Benchmarks 500 (BSDS500)
     https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
@@ -483,9 +483,9 @@ Please see also our main paper for details.
 
 # FAQ
 
-    Q: I have download the dataset, why there is no annotations in the "test" folder?
-    A: We only provide train/val annotations. Please see also the section *"7. Benchmarking 
-       the performace of your model"*. Please send your predictions to my e-mail address so 
+    Q: I have downloaded the dataset. Why there is no annotations in the "test" folder?
+    A: We only provide train&val annotations. Please see also the section "7. Benchmarking 
+       the performace of your model". Please send your predictions to my e-mail address so 
        that I will report the model performace on the test set as a respond and benchmark 
        your score.
 
@@ -520,7 +520,7 @@ Please see also our main paper for details.
 
 If you use this code for your research, please cite our paper:
 
-    @InProceedings{vid2020,
+    @InProceedings{DanbooRegion2020,
     author={Lvmin Zhang, Yi JI, and Chunping Liu}, 
     booktitle={European Conference on Computer Vision (ECCV)}, 
     title={DanbooRegion: An Illustration Region Dataset}, 
