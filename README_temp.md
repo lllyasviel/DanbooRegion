@@ -446,7 +446,23 @@ and this is usually called cell coloring (固有色上色/基本色着色) in Ce
 
 ## 10.1 Cartoon Region Tracking
 
-balabala.
+We can decompose cartoon image into some regions and then fill colors into the regions to reconstruct the cartoon image.
+
+For example, in the below image, form left to right are the input image, the extracted regions, and the filled regions.
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/a1.jpg)
+
+This example can be reproduced by 
+
+    cd ./code/
+    python segment.py ./app2.jpg
+
+In this way we can track cartoon images with this technique:
+
+    Globally Optimal Toon Tracking
+    http://www.cse.cuhk.edu.hk/~ttwong/papers/toontrack/toontrack.html
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app2b.jpg)
 
 ## 10.3 Cartoon Intrinsic Decomposition
 
