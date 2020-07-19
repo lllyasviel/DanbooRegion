@@ -442,7 +442,7 @@ You will get this pretty cool flat colorization
 
 and this is usually called cell coloring (固有色上色/基本色着色) in Celluloid (赛璐璐) workflow (板绘工作流).
 
-**This technology will be embedded to Style2Paints 5.0 later.**
+**This technique will be embedded to Style2Paints 5.0 later.**
 
 ## 10.1 Cartoon Region Tracking
 
