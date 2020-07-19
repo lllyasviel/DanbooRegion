@@ -58,12 +58,13 @@ Other versions may also works but the above versions are tested by myself.
 You can download this dataset from
 
     Google Drive:
-    An URL will be here.
+    https://drive.google.com/drive/folders/1ihLt6P7UQRlaFtZUEclXkWC9grmEXEUK?usp=sharing
 
 or if you do not have access to google
 
     Baidu Drive (百度网盘):
-    An URL will be here.
+    https://pan.baidu.com/s/12qGzKat48n8PyMeaYJPgOA
+    提取码: ts2p
 
 After the downloading and decompression, you may see images like this:
 
