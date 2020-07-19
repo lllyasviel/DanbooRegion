@@ -450,7 +450,7 @@ We can decompose cartoon image into some regions and then fill colors into the r
 
 For example, in the below image, form left to right are the input image, the extracted regions, and the filled regions.
 
-![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/a1.jpg)
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/a1.png)
 
 This example can be reproduced by 
 
