@@ -10,7 +10,7 @@ This project begins at 2019 Jan and a techinical paper, namely "DanbooRegion: An
 
 *- Some example illustration and the corresponding region annotations.*
 
-[Project Page] [Paper] [Zhihu]
+[Project Page (comming soon)] [Paper](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) [Zhihu (comming soon)]
 
 # Table of Contents
 
@@ -380,12 +380,12 @@ But the above link will ask you to install Matlab. If you do not have Matlab the
 We provide a very good pre-trained model for you to download it. This model is very good because I have trained many models and I have manually tested them one-by-one. Note that I not only tested numeric metrics but also checked and watched their results one-by-one using human eyes. This one is my favorite one and I share it here:
 
     Google Drive:
-    (removed, see the UPDATE below.)
+    (duplicated, see the UPDATE below.)
 
 or if you do not have access to google
 
     Baidu Drive (百度网盘):
-    (removed, see the UPDATE below.)
+    (duplicated, see the UPDATE below.)
 
 **UPDATE: We have uploaded the model to the github repo. You now have this model when you clone this repo. You do not need to download again.**
 
