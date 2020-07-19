@@ -107,9 +107,11 @@ In fact we have an user study to visualize the quality of this dataset.
 
 *The x-axis is the quantity of regions in each region map, while the y-axis is the user scoring with the above scoring standard.*
 
-We can see that **about 50% annotations only have normal (or below) quality** and **about 30% annotations are even unfinished**. Besides, **70% annotations still need corrections**. Only **about 20% annotations look good or beautiful**. This is because annotating these regions is very difficult and time-consuming. Thanks a lot to all 12 artists involved in this data annotating projects! Their names are:
+We can see that **about 50% annotations only have normal (or below) quality** and **about 30% annotations are even unfinished**. Besides, **70% annotations still need corrections**. Only **about 20% annotations look good or beautiful**. This is because annotating these regions is very difficult and time-consuming. Thanks a lot to all 12 artists involved in this data annotating projects! The involved artists are:
 
 ![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/human.jpg)
+
+*Some artists do not want to be named and got mosaics.*
 
 Although the quality of this dataset is not perfect, we can still do lots of things that are very useful for cartoon image processing applications.
 
