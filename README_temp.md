@@ -120,7 +120,52 @@ Although the quality of this dataset is not perfect, we can still do lots of thi
 
 # 2. Converting regions to learnable skeleton maps.
 
+Firstly, let's say you have an image like this:
+
 <img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/input.jpg" width = "300" />
+
+Then, you have asked some users or artists to annotate the image and get the region map like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/region.png" width = "300" />
+
+The problem is that how we can train neural networks to predict the region maps? It is obvious that we cannot train a pix2pix to predict the region map because the colors in the region maps are random, and L1 loss is meaningless. Therefore, we will need some additional steps.
+
+We first detect the edge of all regions using OpenCV and get this edge map:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/edge.png" width = "300" />
+
+After that, we use the **skeletonize** function to extract the region skeletons. The function can be found at
+
+    from skimage.morphology import thin as skeletonize
+
+and the result is like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/skeleton.png" width = "300" />
+
+After that, we randomly initialize an image with skeletons and edges like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/field.jpg" width = "300" />
+
+Then, we smooth the above image to get the final skeleton map like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/height.jpg" width = "300" />
+
+Note that this skeleton map is learnable and you can use anything to learn it. For example, you can train pix2pix or pix2pixHD to predict the skeleton map.
+
+Also, the skeleton map can be translated to normal maps like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/normal.jpg" width = "300" />
+
+Or you can thresold the skeleton map to get some watershed markers like this:
+
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/mark.png" width = "300" />
+
+Note that we provide full codes for you to do all the above things! Just run
+
+    cd ./code/
+    python skeletonize.py ./region_test.png
+
+Have fun with the codes.
 
 # 3. Converting the entire dataset to learnable skeleton maps.
 
