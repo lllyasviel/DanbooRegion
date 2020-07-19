@@ -33,7 +33,6 @@ However, if you are busy dating your girlfriend, or in a great hurry to write a 
 We also provide some additional playful contents.
 
     10. Playing with some applications.
-    11. Playing with some configuations.
 
 # 0. Preparation.
 
@@ -417,9 +416,6 @@ Have fun with the pre-trained model.
 
 # 10. Playing with some applications.
 
-
-
-# 11. Playing with some configuations.
 
 
 # FAQ
