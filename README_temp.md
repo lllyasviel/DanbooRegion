@@ -510,7 +510,7 @@ Please see also our main paper for details.
 
 .
 
-    Q: I am writing a SIGGRAPH paper. Can I put images from this dataset to may paper?
+    Q: I am writing a SIGGRAPH paper. Can I put images from this dataset in my paper?
     A: Yes, but be carful that we do not have the copyright of these images. ACM Digital 
        Library managers may ask you to remove all images without copyrights in your 
        camera-ready SIGGRAPH papers.
