@@ -494,11 +494,15 @@ Please see also our main paper for details.
     Q: Can you give me the full resolution images in your paper?
     A: No. Some of thoese images are actually in the test set and giving those full 
        resolution images will cause testing annotation leakage problem.
+
 .
+
     Q: Can I use this model or data in a commercial software?
     A: No. But if you must do that please contact "lvminzhang@acm.org" or 
        "lvminzhang@siggraph.org". Currently we preserve all rights of these models and data.
+
 .
+
     Q: I am writing a SIGGRAPH paper. Can I put images from this dataset to may paper?
     A: Yes, but be carful that we do not have the copyright of these images. ACM Digital 
        Library managers may ask you to remove all images without copyrights in your 
