@@ -386,6 +386,8 @@ or if you do not have access to google
     Baidu Drive (百度网盘):
     An URL will be bere.
 
+**UPDATE: We have uploaded the model to the github repo. You now have this model when you clone this repo. You do not need to download again.**
+
 # 9. Testing the model with an image.
 
 
