@@ -482,13 +482,31 @@ Please see also our main paper for details.
 
 # FAQ
 
-balabala.
+    Q: I have download the dataset, why there is no annotations in the "test" folder?
+    A: We only provide train/val annotations. Please see also the section *"7. Benchmarking the performace of your model"*. Please send your predictions to my e-mail address so that I will report the model performace on the test set as a respond and benchmark your score.
+
+.
+
+    Q: Can you give me the full resolution images in your paper?
+    A: No. Some of thoese images are actually in the test set and giving those full resolution images will cause testing annotation leakage problem.
+.
+    Q: Can I use this model or data in a commercial software?
+    A: No. But if you must do that please contact "lvminzhang@acm.org" or "lvminzhang@siggraph.org". Currently we preserve all rights of these models and data.
+.
+    Q: I am writing a SIGGRAPH paper. Can I put images from this dataset to may paper?
+    A: Yes, but be carful that we do not have the copyright of these images. ACM Digital Library managers may ask you to remove all images without copyrights in your camera-ready SIGGRAPH papers.
+
 
 # Citation
 
 If you use this code for your research, please cite our paper:
 
-    Bib file coming soon.
+    @InProceedings{vid2020,
+    author={Lvmin Zhang, Yi JI, and Chunping Liu}, 
+    booktitle={European Conference on Computer Vision (ECCV)}, 
+    title={DanbooRegion: An Illustration Region Dataset}, 
+    year={2020}, 
+    }
 
 # 中文社区
 
