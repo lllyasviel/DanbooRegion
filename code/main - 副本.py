@@ -1,3 +1,3 @@
-from main import *
+import sklearn
 
-print('ok')
+print('pip install scikit-learn==' + sklearn.__version__)
