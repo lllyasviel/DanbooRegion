@@ -1,0 +1,5 @@
+/code/.idea/
+/code/__pycache__/
+/code/DanbooRegion2020/test/
+/code/DanbooRegion2020/train/
+/code/DanbooRegion2020/val/
