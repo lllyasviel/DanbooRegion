@@ -497,6 +497,13 @@ Please see also our main paper for details.
 
 .
 
+    Q: Why I cannot find some paper images in the dataset?
+    A: Most of the highest-quality annotations are in our test set and we will not 
+       provide them to avoid test annotation leakage problem. Those paper images 
+       might be our test annotations.
+
+.
+
     Q: Can I use this model or data in a commercial software?
     A: No. But if you must do that please contact "lvminzhang@acm.org" or 
        "lvminzhang@siggraph.org". Currently we preserve all rights of these models and data.
