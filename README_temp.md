@@ -390,9 +390,30 @@ or if you do not have access to google
 
 **UPDATE: We have uploaded the model to the github repo. You now have this model when you clone this repo. You do not need to download again.**
 
-# 9. Testing the model with an image.
+# 9. Testing the pre-trained model with an image.
 
+For example you have an image called "emilia.jpg":
 
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_img.jpg)
+
+You may directly run
+
+    cd ./code/
+    python segment.py ./emilia.jpg
+
+And you will get the estimated skeleton map:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_height.jpg)
+
+The translated region map:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_regions.png)
+
+and the regions filled with original colors:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/pre_result)
+
+Have fun with the pre-trained model.
 
 # 10. Playing with some applications.
 
