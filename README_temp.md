@@ -93,6 +93,7 @@ and the example of "X.region.png".
 
 We also provide a script for you to visualize the regions by filling the original colors to all regions, you can use the script by:
 
+    cd ./code/
     python visualize.py ./X.image.png ./X.region.png
 
 and you will see the visualization like this:
@@ -119,7 +120,7 @@ Although the quality of this dataset is not perfect, we can still do lots of thi
 
 # 2. Converting regions to learnable skeleton maps.
 
-
+<img src="https://lllyasviel.github.io/DanbooRegion/page_imgs/sk/input.jpg" width = "300" />
 
 # 3. Converting the entire dataset to learnable skeleton maps.
 
