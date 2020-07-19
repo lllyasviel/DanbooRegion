@@ -28,7 +28,7 @@ In this page, we provide the following contents:
 However, if you are busy dating your girlfriend, or in a great hurry to write a paper, you can skip the 01234567 above and directly jump to the 89 below.
 
     8. Downloding the pre-trained model.
-    9. Testing the model with an image.
+    9. Testing the pre-trained model with an image.
 
 We also provide some additional playful contents.
 
