@@ -416,10 +416,45 @@ Have fun with the pre-trained model.
 
 # 10. Playing with some applications.
 
+## 10.1 Sketch Colorization
 
+For example you have a sketch like this:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app1a.jpg)
+
+and you use Style2Paints 4.5
+
+    Style2Paints 4.5
+    https://github.com/lllyasviel/style2paints
+
+and you get this result
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app1b.jpg)
+
+then you directly run
+
+    cd ./code/
+    python segment.py ./app1.jpg
+
+You will get this pretty cool flat colorization
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app1c.png)
+
+and this is usually called cell coloring (固有色上色/基本色着色) in Celluloid (赛璐璐) workflow (板绘工作流).
+
+**This technology will be embedded to Style2Paints 5.0 later.**
+
+## 10.1 Cartoon Region Tracking
+
+balabala.
+
+## 10.3 Cartoon Intrinsic Decomposition
+
+balabala.
 
 # FAQ
 
+balabala.
 
 # Citation
 
