@@ -466,7 +466,19 @@ In this way we can track cartoon images with this technique:
 
 ## 10.3 Cartoon Intrinsic Decomposition
 
-balabala.
+The regions can also be used to decompose illumination:
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app3.jpg)
+
+The involved technique is 
+
+    An L1 Image Transform for Edge-Preserving Smoothing and Scene-Level Intrinsic Decomposition
+    http://cseweb.ucsd.edu/~bisai/project/siggraph2015.html
+    https://github.com/soundsilence/L1Flattening
+
+![img1](https://lllyasviel.github.io/DanbooRegion/page_imgs/app3b.jpg)
+
+Please see also our main paper for details.
 
 # FAQ
 
