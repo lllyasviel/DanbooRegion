@@ -58,12 +58,12 @@ Other versions may also works but the above versions are tested by myself.
 You can download this dataset from
 
     Google Drive:
-    An URL will be bere.
+    An URL will be here.
 
 or if you do not have access to google
 
     Baidu Drive (百度网盘):
-    An URL will be bere.
+    An URL will be here.
 
 After the downloading and decompression, you may see images like this:
 
