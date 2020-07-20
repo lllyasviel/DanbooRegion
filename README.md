@@ -10,7 +10,7 @@ This project begins at 2019 Jan and a techinical paper, namely "DanbooRegion: An
 
 *- Some example illustration and the corresponding region annotations.*
 
-[[Project Page](https://lllyasviel.github.io/DanbooRegion)] [[Paper](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf)] [Zhihu (coming soon)]
+[[Project Page](https://lllyasviel.github.io/DanbooRegion)] [[Paper](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf)] [[Zhihu](https://zhuanlan.zhihu.com/p/161847602)]
 
 # Table of Contents
 
