@@ -60,12 +60,11 @@ You can download this dataset from
     Google Drive:
     https://drive.google.com/drive/folders/1ihLt6P7UQRlaFtZUEclXkWC9grmEXEUK?usp=sharing
 
-Then, please run
-```
-cat DanbooRegion2020.zip.* > DanbooRegion2020.zip
-zip -FF DanbooRegion2020.zip --out DanbooRegion2020_FF.zip
-unzip DanbooRegion2020_FF.zip
-```
+For linux, you may run: (Windows does not need this step.)
+
+    cat DanbooRegion2020.zip.* > DanbooRegion2020.zip
+    zip -FF DanbooRegion2020.zip --out DanbooRegion2020_FF.zip
+    unzip DanbooRegion2020_FF.zip
 
 or if you do not have access to google
 
