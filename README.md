@@ -382,6 +382,10 @@ Both of these two famous works have very detailed description of the metrics of 
 
 But the above link will ask you to install Matlab. If you do not have Matlab then maybe you can ignore it.
 
+## Computing the AP/OIS/ODS score on the val set.
+
+Coming soon.
+
 # 8. Downloding the pre-trained model.
 
 We provide a very good pre-trained model for you to download it. This model is very good because I have trained many models and I have manually tested them one-by-one. Note that I not only tested numeric metrics but also checked and watched their results one-by-one using human eyes. This one is my favorite one and I share it here:
