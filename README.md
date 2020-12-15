@@ -384,7 +384,7 @@ But the above link will ask you to install Matlab. If you do not have Matlab the
 
 ## Computing the AP/OIS/ODS score on the val set.
 
-Coming soon.
+The related codes are coming soon.
 
 # 8. Downloding the pre-trained model.
 
