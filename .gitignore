@@ -1,4 +1,5 @@
 /code/.idea/
+/code/ap_ois_ods/.idea/
 /code/__pycache__/
 /code/DanbooRegion2020/test/*.png
 /code/DanbooRegion2020/train/*.png

@@ -380,11 +380,13 @@ Both of these two famous works have very detailed description of the metrics of 
     Richer Convolutional Features for Edge Detection
     https://github.com/yun-liu/RCF
 
-But the above link will ask you to install Matlab. If you do not have Matlab then maybe you can ignore it.
+But the above link will ask you to install Matlab and you will need to modify many configuations for evaluation. If you do not have Matlab or you are lazy then you can use my private Python reimplementation, which is very short and easy to read. One example is
 
-## Computing the AP/OIS/ODS score on the val set.
+    cd ./code/
+    cd ./ap_ois_ods/
+    python ap_ois_ods.py
 
-The related codes are coming soon.
+Please see the codes for details.
 
 # 8. Downloding the pre-trained model.
 
