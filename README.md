@@ -533,7 +533,7 @@ Please see also our main paper for details.
 If you use this code for your research, please cite our paper:
 
     @InProceedings{DanbooRegion2020,
-    author={Lvmin Zhang, Yi JI, and Chunping Liu}, 
+    author={Lvmin Zhang and Yi JI and Chunping Liu}, 
     booktitle={European Conference on Computer Vision (ECCV)}, 
     title={DanbooRegion: An Illustration Region Dataset}, 
     year={2020}, 
